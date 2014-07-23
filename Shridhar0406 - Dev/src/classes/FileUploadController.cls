@@ -7,6 +7,8 @@ public class FileUploadController {
         document.FolderId = UserInfo.getUserId(); // put it in running user's folder
         system.debug(UserInfo.getName());      
         system.debug(UserInfo.getName() + 'GIT'); 
+        system.debug(UserInfo.getName() + 'Update by Joy');
+        
         
         try {
             system.debug('hi');
